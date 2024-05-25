@@ -8,22 +8,27 @@ const Prices = () => {
         <div style={styles.columnHeaderPackages}>Packages</div>
         <div style={styles.columnHeader}>Sedan/Hatchback</div>
         <div style={styles.columnHeader}>SUV</div>
-        <div style={styles.columnHeader}>Trucks</div>
+        <div style={styles.columnHeader}>Trucks/XL</div>
 
-        <div style={styles.rowTitle}>Interior</div>
-        <div style={styles.price}>$70</div>
-        <div style={styles.price}>$80</div>
-        <div style={styles.price}>$90</div>
+        <div style={styles.rowTitle}>Base Packages</div>
+        <div style={styles.price}>$85</div>
+        <div style={styles.price}>$105</div>
+        <div style={styles.price}>$115</div>
 
-        <div style={styles.rowTitle}>Exterior</div>
-        <div style={styles.price}>$40</div>
-        <div style={styles.price}>$50</div>
-        <div style={styles.price}>$60</div>
-
-        <div style={styles.rowTitle}>Interior + Exterior</div>
-        <div style={styles.price}>$100</div>
+        <div style={styles.rowTitle}>Interior Only Package</div>
         <div style={styles.price}>$120</div>
         <div style={styles.price}>$140</div>
+        <div style={styles.price}>$160</div>
+
+        <div style={styles.rowTitle}>Exterior Only Package</div>
+        <div style={styles.price}>$150</div>
+        <div style={styles.price}>$170</div>
+        <div style={styles.price}>$190</div>
+
+        <div style={styles.rowTitle}>Elite Package</div>
+        <div style={styles.price}>$200</div>
+        <div style={styles.price}>$220</div>
+        <div style={styles.price}>$250</div>
       </div>
     </div>
   );
@@ -31,7 +36,7 @@ const Prices = () => {
 
 const styles = {
   container: {
-    width: "100%", // Use 100% width to take up all available space
+    width: "100%",
     padding: "20px",
     textAlign: "center",
     backgroundColor: "#fff",
@@ -42,12 +47,13 @@ const styles = {
   },
   table: {
     display: "grid",
-    gridTemplateColumns: "repeat(4, 1fr)", // Keeps the four columns
+    gridTemplateColumns: "repeat(4, 1fr)",
     gap: "10px",
   },
   columnHeader: {
     fontWeight: "bold",
     paddingBottom: "10px",
+    textAlign: "center",
   },
   columnHeaderPackages: {
     textAlign: "left",

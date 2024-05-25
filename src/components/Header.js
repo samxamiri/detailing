@@ -17,14 +17,6 @@ const Header = () => {
         <Link to="prices" smooth={true} duration={500} style={styles.linkStyle}>
           Prices
         </Link>
-        <Link
-          to="gallery"
-          smooth={true}
-          duration={500}
-          style={styles.linkStyle}
-        >
-          Gallery
-        </Link>
       </nav>
     </header>
   );
