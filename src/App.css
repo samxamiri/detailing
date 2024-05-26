@@ -13,6 +13,14 @@
   }
 }
 
+/* Add this to your App.css file */
+.highlight {
+  background-color: greenyellow !important;
+  transition: background-color 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -16,11 +16,14 @@ const Contact = () => {
 
 const styles = {
   container: {
-    width: "100%", // Ensures the container takes full width of its parent
+    maxWidth: "1200px",
     padding: "20px",
     textAlign: "left",
-    backgroundColor: "#fff",
-    color: "#000",
+    backgroundColor: "#ffffff",
+    borderRadius: "8px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    margin: "20px auto",
+    overflow: "hidden",
   },
   header: {
     fontSize: "24px",

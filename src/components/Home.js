@@ -1,7 +1,4 @@
 import React from "react";
-import { Element } from "react-scroll";
-
-import Services from "./Services";
 
 import ImageCarousel from "./Carousel";
 

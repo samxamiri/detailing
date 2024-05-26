@@ -92,11 +92,14 @@ const App = () => {
 
 const styles = {
   appContainer: {
-    textAlign: "center",
     maxWidth: "1200px",
-    margin: "auto",
-    backgroundColor: "#fff",
-    padding: "20px 0",
+    padding: "20px",
+    textAlign: "center",
+    backgroundColor: "#ffffff",
+    borderRadius: "8px",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    margin: "20px auto",
+    overflow: "hidden",
   },
   row: {
     display: "flex",
